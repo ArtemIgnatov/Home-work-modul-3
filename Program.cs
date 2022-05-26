@@ -33,12 +33,12 @@ namespace Home_work_modul_3
             Console.WriteLine("Введие Ваши баллы по математике:");
             //Выводим на экран строку с вводом баллов по математике
             double MatPts = Convert.ToDouble(Console.ReadLine());
-            //Записываем баллы математике в переменную MatPts
+            //Записываем баллы по математике в переменную MatPts
 
             Console.WriteLine("Введие Ваши баллы по физике:");
             //Выводим на экран строку с вводом баллов по физике
             double PhyPts = Convert.ToDouble(Console.ReadLine());
-            //Записываем баллы физике в переменную PhyPts
+            //Записываем баллы по физике в переменную PhyPts
 
             Console.WriteLine($"Ф.И.О.: {FullName} \nВозраст: {Age} \ne-mail: {Mail}" +
                 $"\nПрограммирование: {ProgPts.ToString("#.##")} \nМатематика: {MatPts.ToString("#.##")} " +
